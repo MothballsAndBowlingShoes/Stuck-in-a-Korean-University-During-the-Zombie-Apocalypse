@@ -5,7 +5,7 @@
 
 define bm = Character("Byun Min")
 define jh = Character("Jee Hwan")
-define ??? = Character("???")
+define m = Character("???")
 
 # The game starts here.
 
@@ -21,7 +21,7 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+
 
     # These display lines of dialogue.
     "I sigh, as i hate Biology."
@@ -29,7 +29,24 @@ label start:
     "I have always loved mechanics as I had been working in a car shop my family owned since a young age"
     "Biology is something I have only ever taken for requirements sake, and that's what this is."
     "The stranger next to me agrees." 
-    ??? "I also hate biology, it's just not really my thing"
+    
+    show bm
+    with fade
+    
+    m "I also hate biology, it's just not really my thing"
+    jh "Me neither its always been a mess to deal with"
+    "i look away."
+    "i've never been great at making eye contact"
+    m "So what year are you in?"
+    "She smiles at me."
+    jh "Second year. I’m only 19 though"
+    m "Cool! I'm also in my second year"
+    "She laughs"
+    bm "What's your name? Mine is Byun Min"
+    jh "Jee Hwan"
+
+
+
 
 
     # This ends the game.
